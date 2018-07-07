@@ -7,8 +7,6 @@ import (
 	"io"
 	"os"
 	"os/exec"
-	"runtime"
-	"strings"
 )
 
 func execCommand(commandName string, params []string) bool {
